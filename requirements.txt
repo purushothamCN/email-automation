@@ -1,0 +1,52 @@
+smtplib
+email
+# Email Automation
+
+A simple Python library to automate sending emails with support for attachments.
+
+## Installation
+
+```bash
+pip install email-automation
+
+
+from email_automation import EmailAutomation
+
+email = EmailAutomation(
+    smtp_server="smtp.gmail.com", 
+    smtp_port=587, 
+    sender_email="your_email@gmail.com", 
+    sender_password="your_password"
+)
+
+email.send_email(
+    receiver_email="receiver@example.com", 
+    subject="Test Email", 
+    body="This is a test email."
+)
+
+
+
+### 7. **Create a GitHub Repository**
+
+1. **Create a GitHub repository**:
+   - Go to GitHub and create a new repository. For example, `email-automation`.
+
+2. **Push Your Code to GitHub**:
+   - Initialize a git repository:
+     ```bash
+     git init
+     git add .
+     git commit -m "Initial commit"
+     ```
+   - Link your local repository to GitHub:
+     ```bash
+     git remote add origin https://github.com/yourusername/email-automation.git
+     git push -u origin master
+     ```
+
+### 8. **Publish to PyPI**
+
+1. **Install Twine**:
+   ```bash
+   pip install twine

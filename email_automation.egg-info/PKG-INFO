@@ -1,0 +1,30 @@
+Metadata-Version: 2.4
+Name: email-automation
+Version: 0.1.0
+Summary: A simple email automation library for sending emails
+Home-page: https://github.com/purushothamCN/email_automation
+Author: purushothamCN
+Author-email: purushothamputtu9@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: smtplib
+Requires-Dist: email
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: requires-dist
+Dynamic: summary
+
+# Email Automation
+
+A simple Python library to automate sending emails with support for attachments.
+
+## Installation
+
+```bash
+pip install email-automation
