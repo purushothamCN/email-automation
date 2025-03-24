@@ -15,7 +15,7 @@ setup(
     description='A simple email automation library for sending emails',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/purushothamCN/email_automation',  # Update with your GitHub link
+    url='https://github.com/purushothamCN/email_automation.git',  # Update with your GitHub link
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
